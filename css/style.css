@@ -1,0 +1,39 @@
+#weather{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    background-image: linear-gradient(30deg, rgb(24, 53, 182), skyblue, rgb(91, 50, 205));
+    text-align: center;
+    border-radius: 30px;
+}
+
+#search{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#search img{
+    height: 25px;
+}
+
+#search input{
+    height: 40px;
+    width: 250px;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+#search button{
+    height: 45px;
+    width: 45px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+#main, #error{
+    display: none;
+}
